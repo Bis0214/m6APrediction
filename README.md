@@ -80,11 +80,11 @@ To evaluate the performance of the m6A prediction model, we provide visualizatio
 
 The ROC curve illustrates the trade-off between the true positive rate (sensitivity) and the false positive rate (1-specificity) across different threshold values. A model that predicts perfectly will have a ROC curve that passes through the upper left corner.
 
-![ROC Curve]("inst/image/ROC_curve.png")
+![ROC Curve](inst/image/ROC_curve.png)
 
 ### PRC Curve
 
 The PRC curve shows the relationship between precision and recall for different thresholds. A high area under the PRC curve indicates that the model has a good balance between precision and recall.
 
-![PRC Curve]("inst/image/PRC_curve.png")
+![PRC Curve](inst/image/PRC_curve.png)
 
