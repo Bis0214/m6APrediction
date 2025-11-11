@@ -1,0 +1,14 @@
+Package: m6APrediction
+Title: A Package for Predicting m6A Sites
+Version: 1.0.0
+Authors@R: 
+    person('Bingyao', 'Chen', email = 'Bingyao.Chen23@student.xjtlu.edu.cn' , role = c("aut", "cre"))
+Description: This package provides functions to predict m6A sites based on various RNA features using trained machine learning models.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    randomForest,
+    dplyr
+Depends: R (>= 3.5.0)
