@@ -10,11 +10,11 @@ To install the `m6APrediction` package from GitHub, you can use either `devtools
 
 ```r
 # Using devtools
-devtools::install_github("yourusername/m6APrediction")
+devtools::install_github("Bis0214/m6APrediction")
 
 # Or using remotes
-remotes::install_github("yourusername/m6APrediction")
-
+remotes::install_github("Bis0214/m6APrediction")
+```
 ## Usage Example
 
 Here’s a minimal example demonstrating how to use the two prediction functions in the package:
@@ -38,9 +38,10 @@ predictions <- prediction_multiple(
 )
 
 print(predictions)
-
+```
 ### Predicting a Single m6A Site
 
+```r
 # Load the package
 library(m6APrediction)
 
@@ -70,7 +71,7 @@ prediction <- prediction_single(
 )
 
 print(prediction)
-
+```
 ## Performance Visualization
 
 To evaluate the performance of the m6A prediction model, we provide visualizations such as the ROC (Receiver Operating Characteristic) curve and the PRC (Precision-Recall Curve). These curves help us understand the model’s ability to distinguish between positive and negative classes.
@@ -79,11 +80,11 @@ To evaluate the performance of the m6A prediction model, we provide visualizatio
 
 The ROC curve illustrates the trade-off between the true positive rate (sensitivity) and the false positive rate (1-specificity) across different threshold values. A model that predicts perfectly will have a ROC curve that passes through the upper left corner.
 
-![ROC Curve]("/home/bingyao23/BIO215/Practical7/m6APrediction/inst/image/ROC_curve.png")
+![ROC Curve]("inst/image/ROC_curve.png")
 
 ### PRC Curve
 
 The PRC curve shows the relationship between precision and recall for different thresholds. A high area under the PRC curve indicates that the model has a good balance between precision and recall.
 
-![PRC Curve]("/home/bingyao23/BIO215/Practical7/m6APrediction/inst/image/PRC_curve.png")
+![PRC Curve]("inst/image/PRC_curve.png")
 
